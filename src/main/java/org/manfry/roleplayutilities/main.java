@@ -15,7 +15,7 @@ public final class main extends JavaPlugin {
         Bukkit.getLogger().info(" ");
         Bukkit.getLogger().info("Roleplay Utilities");
         Bukkit.getLogger().info("Made by: Manfry");
-        Bukkit.getLogger().info("Version 1.0 beta");
+        Bukkit.getLogger().info("Version 1.1");
         Bukkit.getLogger().info("Plugin loaded");
         Bukkit.getLogger().info(" ");
 
@@ -30,7 +30,7 @@ public final class main extends JavaPlugin {
         Bukkit.getLogger().info(" ");
         Bukkit.getLogger().info("Roleplay Utilities");
         Bukkit.getLogger().info("Made by: Manfry");
-        Bukkit.getLogger().info("Version 1.0 beta");
+        Bukkit.getLogger().info("Version 1.1");
         Bukkit.getLogger().info("Plugin unloaded");
         Bukkit.getLogger().info(" ");
     }

@@ -37,7 +37,7 @@ public class help implements CommandExecutor {
                         player.sendMessage("§7Asked for help: " + message);
                     TextComponent help1 = new TextComponent("§7Go to him clicking §chere");
                     help1.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/tp " + s.getName()));
-                    setHover(help1);
+             //       setHover(help1);
                     player.spigot().sendMessage(help1);
                     player.sendMessage(" ");
                 }
@@ -51,8 +51,8 @@ public class help implements CommandExecutor {
         return true;
     }
 
-    public void setHover(TextComponent o) {
+  /*  public void setHover(TextComponent o) {
         o.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, (
                 new Text("§7Left click to execute this command"))));
-    }
+    } */
 }
