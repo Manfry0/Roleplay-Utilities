@@ -27,7 +27,7 @@ public class help implements CommandExecutor {
             s.sendMessage(confirmationmessage);
 
             for (Player player : Bukkit.getServer().getOnlinePlayers()) {
-                if (player.hasPermission("moonthunderrp.aiuto.ricevi")) {
+                if (player.hasPermission("roleplayu.help.see")) {
                     player.sendMessage(" ");
                     player.sendMessage("§c§lHelp request");
                     player.sendMessage("§7The player §c" + s.getName());
@@ -35,7 +35,7 @@ public class help implements CommandExecutor {
                         player.sendMessage("§7Asked for help");
                     else
                         player.sendMessage("§7Asked for help: " + message);
-                    TextComponent help1 = new TextComponent("§7Go to him clicking here");
+                    TextComponent help1 = new TextComponent("§7Go to him clicking §chere");
                     help1.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/tp " + s.getName()));
                     setHover(help1);
                     player.spigot().sendMessage(help1);
@@ -53,6 +53,6 @@ public class help implements CommandExecutor {
 
     public void setHover(TextComponent o) {
         o.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, (
-                new Text("§7Click sinistro per eseguire questo comando"))));
+                new Text("§7Left click to execute this command"))));
     }
 }

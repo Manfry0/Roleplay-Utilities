@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.manfry.roleplayutilities.commands.broadcast;
 import org.manfry.roleplayutilities.commands.help;
 
-public final class RoleplayUtilities extends JavaPlugin {
+public final class main extends JavaPlugin {
 
     @Override
     public void onEnable() {
