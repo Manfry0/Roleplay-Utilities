@@ -1,0 +1,30 @@
+name: Roleplay Utilities
+version: '${project.version}'
+main: org.manfry.roleplayutilities.RoleplayUtilities
+prefix: Roleplay Utilities
+authors: [ Manfry ]
+description: A plugin containing all roleplay utilities
+api-version: 1.18
+
+commands:
+  help:
+    aliases: [aiuto, h]
+  broadcast:
+    aliases: [a, annuncio, bc]
+    permission: roleplayu.broadcast
+    permission-message: §c§lMESSAGE §8▶ §cNessun permesso.
+
+permissions:
+  roleplayu.*:
+    default: op
+    children:
+      roleplayu.help.see: true
+      roleplayu.broadcast: true
+      roleplayu.reload: true
+
+  moonthunderrp.help.see:
+    default: false
+  moonthunderrp.broadcast:
+    default: false
+  moonthunderrp.reload:
+    default: false

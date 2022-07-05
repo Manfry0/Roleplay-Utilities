@@ -1,0 +1,23 @@
+#------------------------------------------------------------
+#Configuration file of Roleplay Utilities by Manfry
+#For help, this is my Discord id: Manfry#8538
+#------------------------------------------------------------
+
+#------------------------------------------------------------
+#Broadcast module
+#alias: /bc /a /annuncio
+#------------------------------------------------------------
+
+#true for enabled and false for disabilitate
+enabled-bc: true
+prefix-bc: "&c&lMESSAGE &8▶ &c"
+broadcast-send: "You sent a broadcast!"
+
+#------------------------------------------------------------
+#help module
+#alias: /aiuto /help /a
+#------------------------------------------------------------
+
+#true for enabled and false for disabilitate
+enabled-a: true
+confirmation-message: "&aYou sent a request for help to the staff!"
