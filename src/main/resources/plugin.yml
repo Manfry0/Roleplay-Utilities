@@ -1,4 +1,4 @@
-name: Roleplay Utilities
+name: Roleplay-Utilities
 version: '${project.version}'
 main: org.manfry.roleplayutilities.RoleplayUtilities
 prefix: Roleplay Utilities
