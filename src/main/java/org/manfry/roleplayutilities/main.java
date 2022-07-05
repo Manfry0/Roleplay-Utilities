@@ -21,7 +21,7 @@ public final class main extends JavaPlugin {
 
         getCommand("broadcast").setExecutor(new broadcast());
         getCommand("help").setExecutor(new help());
-        getCommand("roleplayutilities").setExecutor(new roleplayutilities());
+        getCommand("rpu").setExecutor(new roleplayutilities());
     }
 
     @Override

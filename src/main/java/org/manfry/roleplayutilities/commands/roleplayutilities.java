@@ -13,10 +13,9 @@ public class roleplayutilities implements CommandExecutor {
         List<String> argsList = Arrays.asList(args);
         if (!argsList.isEmpty()) {
             if (argsList.get(0).equalsIgnoreCase("reload")) {
-                if (sender.hasPermission("roleplayu.roleplayu.reload")) {
                     new reload(sender);
-                }
-            } else sender.sendMessage("§c§lMESSAGE §8▶ §cNo permission.");
+
+            }
         }
         return true;
     }

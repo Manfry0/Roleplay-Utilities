@@ -13,9 +13,9 @@ commands:
     aliases: [a, annuncio, bc]
     permission: roleplayu.broadcast
     permission-message: §c§lMESSAGE §8▶ §cNo permission.
-  roleplayutilities:
-    aliases: [ru, rpu, rp]
-    permission: roleplayu.roleplayu
+  rpu:
+    aliases: [ru, roleplayutilities, rp]
+    permission: roleplayu.reload
     permission-message: §c§lMESSAGE §8▶ §cNo permission.
 
 permissions:
@@ -32,5 +32,5 @@ permissions:
     default: false
   roleplayu.roleplayu.reload:
     default: false
-  roleplayu.roleplayu:
+  roleplayu.reload:
     default: false
