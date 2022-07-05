@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.manfry.roleplayutilities.commands.broadcast;
 import org.manfry.roleplayutilities.commands.help;
+import org.manfry.roleplayutilities.commands.roleplayutilities;
 
 public final class main extends JavaPlugin {
 
@@ -20,6 +21,7 @@ public final class main extends JavaPlugin {
 
         getCommand("broadcast").setExecutor(new broadcast());
         getCommand("help").setExecutor(new help());
+        getCommand("roleplayutilities").setExecutor(new roleplayutilities());
     }
 
     @Override
