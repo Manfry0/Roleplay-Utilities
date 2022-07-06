@@ -4,7 +4,7 @@
   <groupId>org.manfry</groupId>
   <artifactId>roleplay-utilities</artifactId>
   <name>Roleplay Utilities</name>
-  <version>1.2</version>
+  <version>1.3</version>
   <description>A plugin containing all roleplay utilities</description>
   <build>
     <resources>

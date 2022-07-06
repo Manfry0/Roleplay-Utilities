@@ -16,7 +16,7 @@ public final class main extends JavaPlugin {
         Bukkit.getLogger().info(" ");
         Bukkit.getLogger().info("Roleplay Utilities");
         Bukkit.getLogger().info("Made by: Manfry");
-        Bukkit.getLogger().info("Version 1.2");
+        Bukkit.getLogger().info("Version " + this.getDescription().getVersion());
         Bukkit.getLogger().info("Plugin loaded");
         Bukkit.getLogger().info(" ");
 
@@ -26,6 +26,14 @@ public final class main extends JavaPlugin {
 
         int pluginId = 15690; // <-- Replace with the id of your plugin!
         Metrics metrics = new Metrics(this, pluginId);
+
+        new UpdateChecker(this, 103143).getVersion(version -> {
+            if (this.getDescription().getVersion().equals(version)) {
+                getLogger().info("There is not a new update available.");
+            } else {
+                getLogger().info("There is a new update available, download it at  https://www.spigotmc.org/resources/roleplay-utilities.103143/");
+            }
+        });
     }
 
     @Override
@@ -34,7 +42,7 @@ public final class main extends JavaPlugin {
         Bukkit.getLogger().info(" ");
         Bukkit.getLogger().info("Roleplay Utilities");
         Bukkit.getLogger().info("Made by: Manfry");
-        Bukkit.getLogger().info("Version 1.2");
+        Bukkit.getLogger().info("Version " + this.getDescription().getVersion());
         Bukkit.getLogger().info("Plugin unloaded");
         Bukkit.getLogger().info(" ");
     }
