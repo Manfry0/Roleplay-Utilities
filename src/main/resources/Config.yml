@@ -1,6 +1,6 @@
 #------------------------------------------------------------
 #Configuration file of Roleplay Utilities by Manfry
-#For help, this is my Discord id: Manfry#8538
+#For helpstaff, this is my Discord id: Manfry#8538
 #------------------------------------------------------------
 
 #------------------------------------------------------------
@@ -14,10 +14,10 @@ prefix-bc: "&c&lMESSAGE &8▶ &c"
 broadcast-send: "You sent a broadcast!"
 
 #------------------------------------------------------------
-#help module
-#alias: /aiuto /help /a
+#helpstaff module
+#alias: /aiuto /helpstaff /a
 #------------------------------------------------------------
 
 #true for enabled and false for disabilitate
 enabled-a: true
-confirmation-message: "&aYou sent a request for help to the staff!"
+confirmation-message: "&aYou sent a request for helpstaff to the staff!"

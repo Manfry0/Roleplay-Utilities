@@ -7,7 +7,7 @@ description: A plugin containing all roleplay utilities
 api-version: 1.18
 
 commands:
-  help:
+  helpstaff:
     aliases: [aiuto, h]
   broadcast:
     aliases: [a, annuncio, bc]
@@ -16,6 +16,9 @@ commands:
   rpu:
     aliases: [ru, roleplayutilities, rp]
     permission: roleplayu.reload
+    permission-message: §c§lMESSAGE §8▶ §cNo permission.
+  help:
+    permission: roleplayu.help
     permission-message: §c§lMESSAGE §8▶ §cNo permission.
 
 permissions:
@@ -26,11 +29,9 @@ permissions:
       roleplayu.broadcast: true
       roleplayu.reload: true
 
-  roleplayu.help.see:
+  roleplayu.helpstaff.see:
     default: false
   roleplayu.broadcast:
-    default: false
-  roleplayu.roleplayu.reload:
     default: false
   roleplayu.reload:
     default: false

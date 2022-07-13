@@ -5,6 +5,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.manfry.roleplayutilities.commands.broadcast;
 import org.manfry.roleplayutilities.commands.help;
+import org.manfry.roleplayutilities.commands.helpstaff;
 import org.manfry.roleplayutilities.commands.roleplayutilities;
 
 public final class main extends JavaPlugin {
@@ -21,8 +22,9 @@ public final class main extends JavaPlugin {
         Bukkit.getLogger().info(" ");
 
         getCommand("broadcast").setExecutor(new broadcast());
-        getCommand("help").setExecutor(new help());
+        getCommand("helpstaff").setExecutor(new helpstaff());
         getCommand("rpu").setExecutor(new roleplayutilities());
+        getCommand("help").setExecutor(new help());
 
         int pluginId = 15690; // <-- Replace with the id of your plugin!
         Metrics metrics = new Metrics(this, pluginId);
@@ -35,6 +37,8 @@ public final class main extends JavaPlugin {
             }
         });
     }
+
+
 
     @Override
     public void onDisable() {
